@@ -1,0 +1,98 @@
+.web{
+    background:rgba(0,0,0,0.5)url("../images/city.jfif");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.text p{
+    position:absolute;
+    top:100px;
+    left:40px;
+    color:rgb(147, 197, 192);
+    font-size:50px;
+    font-family:"Century Gothic";
+    font-weight:lighter;
+    line-height:80px;
+    animation-name:example;
+    animation-duration:40s;
+    animation:example 5s;
+    text-shadow: 10px 20px 8px black;
+}
+
+@keyframes example {
+    0% {color: rgb(147, 197, 192);text-shadow: 10px 20px 10px black;}
+    15% {color: rgb(131, 211, 248);text-shadow: 10px 20px 10px black;}
+    25% {color: rgb(253, 197, 145);text-shadow: 10px 20px 10px rgb(185, 129, 187);}
+    35% {color: rgb(212, 255, 131);text-shadow: 10px 20px 10px rgb(131, 211, 248);}
+    45% {color: rgb(185, 129, 187);text-shadow: 10px 20px 10px black;}
+    60% {color: rgb(243, 171, 205);text-shadow: 10px 20px 10px rgb(255, 112, 179);}
+    90% {color: rgb(115, 120, 184);text-shadow: 10px 20px 10px black;}
+    100% {color: rgb(147, 197, 192);text-shadow: 10px 20px 10px rgb(115, 120, 184);}
+  }
+
+.cal{
+    background-image:url("../images/cal.jpg");
+    background-size: cover;
+}
+nav{
+    background-color:black;
+    overflow:hidden;
+    position:fixed;
+}
+.navlink{
+    float:left;
+    color:white;
+    display:block;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:20px;
+    padding:25px 115px;
+    margin:0 auto;
+}
+a.navlink:hover{
+    background-color:white;
+    color:black;
+}
+input{
+    width:275px;
+    margin:10px;
+    height:35px;
+    font-size:20px;
+}
+p{
+    position:absolute;
+    top:100px;
+    left:580px;
+    z-index:1;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+#Calculator{
+    position:absolute;
+    text-align:center;
+    border:2px solid black;
+    padding:20px;
+    position: absolute;
+    top:180px;
+    left:510px;
+    background-color:black;
+    opacity:0.8;
+    box-shadow:10px 8px 5px rgb(230, 226, 226);
+}
+.btn{
+    height:30px;
+    width:50px;
+    margin:10px;
+    font-size:20px;
+    background-color:white;
+}
+.btn:hover,.clr:hover{
+    background-color:black;
+    color:white;
+    transition:background-color 0.1s ease-in-out;
+}
+.clr{
+    margin:10px;
+    height:30px;
+    width:123px;
+}
